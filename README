@@ -1,0 +1,78 @@
+Neural Network, Backpropagation and Facerecognition
+====================================================
+
+The main method to start the networks. You have this possibilities.
+
+    First step: Define the network. Type a number:
+    [0] Build your own network
+    [1] Logistic map function
+    [2] OR
+    [3] XOR
+    [4] Face recognition
+
+[1] Logistic map function
+---------------------
+The NN lerns Logistic Map and makes a 2D plot 
+
+[2] OR
+[3] XOR
+---------------------
+    The NN lerns OR, XOR and makes a 3D plot
+    
+
+[4] Face recognition
+---------------------
+    This code is loading face and nonface datas from the 'data' folder.
+    The images are grey.
+    The images are transformed to matrixes 19x19 pixel and then to a vector 1x361 [361 = 19x19]
+    Next the faces and nonfaces are stacked in one list.
+    This list is pushed to the backpropagation network.
+
+    The calculation takes ~30 minutes.
+
+--------------------------
+
+    The vast majority of the NeuralNetwork.py code comes from a youtube video: https://www.youtube.com/watch?v=XqRUHEeiyCs
+    The Coder name is Ryan Harris.
+    I made some more comments and addet methods to make the code cleaner for me.
+
+    
+
+Installation
+-------------
+Linux:
+git clone git@github.com:LNeural_Network_Backpropagation_Facerecognitionivruen/Neural_Network_and_Backpropagation.git
+
+Run
+-------------
+
+python /path/Run.py
+
+The main method to start the networks. You have this possibilities.
+
+    First step: Define the network. Type a number:
+    [0] Build your own network
+    [1] Logistic map function
+    [2] OR
+    [3] XOR
+    [4] Face recognition
+
+About Us:
+=================
+
+Anan National College of Technology: 
+------------------------------------
+
+The International Exchange Office at Anan National College of Technology (ANCT) was established in April 2009. The mission is to make ANCT a global campus and foster students’ international-minded. We focus on three areas: student supports, strategy and partnerships and international student recruitment. ﻿
+Read more here: http://www01.anan-nct.ac.jp/international/international-eng/international-exchange-office
+
+Ostfalia University of Applied Sciences
+----------------------------------------
+
+Internationalization is a key task of the university.
+As a basis applies the concept internationalization of Ostfalia University of Applied Sciences , which developed in 2006 by the AG internationalization , decided by the Bureau of the university and has been adopted by the University Senate.
+
+
+@autor Natasza Szczypien, email: natasza.szczypien@gmail.com
+Mentor: Prof.Dr. Yuici Nakamura, email: nyuichi51@gmail.com
+
